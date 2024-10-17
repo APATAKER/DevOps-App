@@ -10,5 +10,10 @@ pipeline {
                 sh 'sudo docker images'
             }
         }
+        stage('deploy') {
+            steps {
+                sh './deploy.sh'
+            }
+        }
     }
 }
