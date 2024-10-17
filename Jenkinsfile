@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo "Hello World!"
                 sh 'ls -l'
+                sh 'pwd'
             }
         }
     }
