@@ -12,6 +12,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
+                sh 'ls -l'
                 sh './deploy.sh'
             }
         }
