@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t dev-app:latest .
+sudo docker build -t dev-app:latest .
