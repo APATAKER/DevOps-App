@@ -7,7 +7,7 @@ pipeline {
                 sh "chmod +x -R $WORKSPACE"
                 sh 'ls -l'
                 sh './build.sh'
-                sh 'docker images'
+                sh 'sudo docker images'
             }
         }
     }
